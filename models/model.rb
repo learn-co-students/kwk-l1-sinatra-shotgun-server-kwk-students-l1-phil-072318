@@ -34,11 +34,4 @@ def feminism_quiz_question3(answer)
   end 
 end 
     
-def guncontrol_quiz_question1(answer)
-  if answer == "answer3"
-   @@results.push "yee"
- else 
-   @@results.push "nu"
- end 
-end 
 
