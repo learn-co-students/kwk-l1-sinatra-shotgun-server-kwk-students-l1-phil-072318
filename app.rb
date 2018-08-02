@@ -12,6 +12,7 @@ class App < Sinatra::Base
   end 
 
   post '/feminism_quiz' do
+    reset_quiz
     @myresult = feminism_quiz_question1(params[:question1])
     @myresult = feminism_quiz_question2(params[:question2])
     @myresult = feminism_quiz_question3(params[:question1])
@@ -23,6 +24,7 @@ class App < Sinatra::Base
   end 
 
   post '/equality_quiz' do
+    reset_quiz
     @myresult = equality_quiz_question1(params[:question1])
     @myresult = equality_quiz_question2(params[:question2])
     @myresult = equality_quiz_question3(params[:question3])
@@ -34,6 +36,7 @@ class App < Sinatra::Base
   end 
 
   post '/gun_control_quiz' do
+    reset_quiz
     @myresult = guncontrol_quiz_question1(params[:question1])
     @myresult = guncontrol_quiz_question2(params[:question2])
     @myresult = guncontrol_quiz_question3(params[:question3])

@@ -1,4 +1,7 @@
+
+def reset_results
 @@results = []
+end
 
 def feminism_quiz_question1(answer)
   if answer == "answer2"
