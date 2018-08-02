@@ -8,10 +8,30 @@
 
 # end
 
-def feminism_quiz(question1, question2, question3)
-  if question1="answer2"
-    return "correct"
-  else return "sorry"
+@@results = []
+
+def feminism_quiz_question1(answer)
+  if answer == "answer2"
+    @@results.push "AWesome"
+  else 
+    @@results.push "oops"
   end 
 end 
+
+def feminism_quiz_question2(answer)
+  if answer == "answer3"
+    @@results.push "AWesome"
+  else 
+    @@results.push "oops"
+  end 
+end 
+
+def feminism_quiz_question3(answer)
+  if answer == "answer1"
+    @@results.push "AWesome"
+  else 
+    @@results.push "oops"
+  end 
+end 
+    
 
