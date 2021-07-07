@@ -1,0 +1,66 @@
+
+body {
+    background-color: #E8DFCB; 
+}
+h1 {
+  font-family: Poynter; 
+  text-align: center; 
+  font-size:80px; 
+  /* center title */}
+.column {
+  
+    border-left: 1px solid black;
+    height: 500px;
+}
+ 
+nav {
+    list-style-type: none;
+    /*margin: ;*/
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+  font-size: 20px;
+  font-family:script;
+}
+nav a {
+    text-decoration: none;
+    font-family: Cambria, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    /*text-transform: normal;*/
+    letter-spacing: normal;
+    line-height: 1.3em;
+    color: #596365;
+}
+#nav a: hover {
+    text-decoration: none;
+    font-family: Cambria, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: normal;
+    letter-spacing: normal;
+    line-height: 1.3em;
+    color: #000;
+}
+  
+ 
+hr {
+    border: none;
+    height: 20px;
+    /* Set the hr color */
+    color: #010000; /* old IE */
+    background-color:#533E3E; /* Modern Browsers */
+}
+p {
+    font-family: "Times New Roman", Times, serif;
+  font-size: 18px
+}
+p style{
+ /*float: top; */
+  float: left;
+  
+}
+/*https://youtu.be/F4WsW3booUo  */
+/*  http://www.youtube.com/embed/W7qWa52k-nE*/
